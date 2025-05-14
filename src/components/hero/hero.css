@@ -1,0 +1,17 @@
+.hero_text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ text-align: center;
+}
+
+.hero_p{
+ font-weight: 400;
+ font-size: 14px;
+ color: #3858D6;
+}
+
+.hero_h3{
+    font-weight: 700;
+    font-style: 36px;
+    color: #1E1D1D;
+}
