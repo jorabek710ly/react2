@@ -2,6 +2,7 @@ import React from 'react'
 import imgLog from '../../assets/Logo (7).svg'
 import imgPerson from '../../assets/Group 1 (1).svg'
 import imgHero from '../../assets/imghero.png'
+import imgsearch from '../../assets/search.png'
 import "./Header.css"
 
 const Header = () => {
@@ -40,7 +41,7 @@ const Header = () => {
                             quality. Here you
                             can find smart watches of almost all brands. So why you are waiting? Just order now!</p>
                         <div className="main__search">
-                            <img src={imgPerson} className='search__icon' alt="" />
+                            <img src={imgsearch} className='search__icon' alt="" />
                             <input type="search" className="search" placeholder="Find the best brands"/>
                             <button className="search__btn">search</button>
                         </div>
